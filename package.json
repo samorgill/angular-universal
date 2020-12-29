@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start:heroku": "node ./dist/angular-universal/server",
+    "start:heroku": "node dist/angular-universal/server/main.js",
     "dev:ssr": "ng run angular-universal:serve-ssr",
     "serve:ssr": "node dist/angular-universal/server/main.js",
     "build:ssr": "ng build --prod && ng run angular-universal:server:production",
