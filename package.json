@@ -8,10 +8,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "start:heroku": "node dist/server",
     "dev:ssr": "ng run angular-universal:serve-ssr",
     "serve:ssr": "node dist/angular-universal/server/main.js",
     "build:ssr": "ng build --prod && ng run angular-universal:server:production",
-    "prerender": "ng run angular-universal:prerender"
+    "prerender": "ng run angular-universal:prerender",
+    "postinstall": "npm run build:ssr"
   },
   "private": true,
   "dependencies": {
