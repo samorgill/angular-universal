@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node dist/blog/server/main.js",
+    "start": "node dist/angular-universal/server/main.js",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
